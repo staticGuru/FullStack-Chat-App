@@ -12,9 +12,10 @@ const Home = () => {
 
   return (
     <div className="home-container">
+    <h1 className="title">Get Into Web3 World</h1>
       <input
         type="text"
-        placeholder="Room"
+        placeholder="Enter the Coin Name"
         value={roomName}
         onChange={handleRoomNameChange}
         className="text-input-field"

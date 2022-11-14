@@ -5,21 +5,25 @@
   height: 100vh;
   padding: 16px;
   background-color: #3f4042;
+  justify-content: center;
 }
 
 .text-input-field {
-  padding: 24px 12px;
+  padding: 24px 84px 24px 4px;
   border-radius: 7px;
   font-size: 24px;
+  outline: none;
 }
 
 .text-input-field:focus {
   outline: none;
 }
-
+.title {
+  color: #31a24c;
+}
 .enter-room-button {
   margin-top: 20px;
-  padding: 24px 12px;
+  padding: 24px 24px;
   font-size: 28px;
   background: #31a24c;
   color: white;

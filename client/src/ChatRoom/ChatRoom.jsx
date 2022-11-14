@@ -34,7 +34,7 @@ const ChatRoom = (props) => {
           ))}
         </ol>
       </div>
-      <div>
+      <div className="inputContainer">
       <textarea
         value={newMessage}
         onChange={handleNewMessageChange}

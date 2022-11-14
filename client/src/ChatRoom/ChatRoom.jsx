@@ -34,6 +34,7 @@ const ChatRoom = (props) => {
           ))}
         </ol>
       </div>
+      <div>
       <textarea
         value={newMessage}
         onChange={handleNewMessageChange}
@@ -43,6 +44,7 @@ const ChatRoom = (props) => {
       <button onClick={handleSendMessage} className="send-message-button">
         Send
       </button>
+      </div>
     </div>
   );
 };
